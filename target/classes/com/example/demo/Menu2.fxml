@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="921.0" styleClass="anchor3" stylesheets="@../../../MenuStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Menu2">
+   <children>
+      <Button layoutX="516.0" layoutY="221.0" mnemonicParsing="false" onAction="#chooseEquipment" prefHeight="51.0" prefWidth="267.0" text="𝓢𝓮𝓵𝓮𝓬𝓽 𝓔𝓺𝓾𝓲𝓹𝓶𝓮𝓷𝓽">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="75.0" layoutY="324.0" mnemonicParsing="false" onAction="#AddEquipment" prefHeight="51.0" prefWidth="350.0" text="𝓐𝓭𝓭 𝓔𝓺𝓾𝓲𝓹𝓶𝓮𝓷𝓽 𝓪𝓷𝓭 𝓦𝓮𝓪𝓹𝓸𝓷">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="221.0" mnemonicParsing="false" onAction="#chooseWeapon" prefHeight="51.0" prefWidth="267.0" text="𝓢𝓮𝓵𝓮𝓬𝓽 𝓦𝓮𝓪𝓹𝓸𝓷">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="478.0" layoutY="328.0" mnemonicParsing="false" onAction="#DeleteEquipment" text="𝓓𝓮𝓵𝓮𝓽𝓮 𝓔𝓺𝓾𝓲𝓹𝓶𝓮𝓷𝓽 𝓪𝓷𝓭 𝓦𝓮𝓪𝓹𝓸𝓷">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="342.0" layoutY="420.0" mnemonicParsing="false" onAction="#CalculateData" text="𝓒𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓮 𝓓𝓪𝓽𝓪">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="392.0" layoutY="525.0" mnemonicParsing="false" onAction="#Logout" text="𝓛𝓸𝓰 𝓸𝓾𝓽">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="351.0" layoutY="121.0" mnemonicParsing="false" onAction="#switchToSelectEquip" prefHeight="50.0" prefWidth="217.0" text="𝓐𝓭𝓭 𝓚𝓷𝓲𝓰𝓱𝓽">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

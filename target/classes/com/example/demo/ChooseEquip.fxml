@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1000.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Menu2">
+   <children>
+      <Label layoutX="548.0" layoutY="31.0" text="WelcomeToChooseEquip">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="HelmetView" layoutX="78.0" layoutY="106.0" prefHeight="200.0" prefWidth="483.0">
+         <columns>
+            <TableColumn fx:id="HelmetCost" prefWidth="92.79998779296875" text="Cost" />
+            <TableColumn fx:id="HelmetWeight" prefWidth="79.19998168945312" text="Weight" />
+            <TableColumn fx:id="HelmetMat" prefWidth="78.39997863769531" text="Material" />
+            <TableColumn fx:id="HelmetStreingth" prefWidth="89.60003662109375" text="Strength" />
+            <TableColumn fx:id="HelmetType" prefWidth="142.40001220703124" text="TypeOfHelmet" />
+         </columns>
+      </TableView>
+      <TableView fx:id="BreastplateView" layoutX="740.0" layoutY="106.0" prefHeight="200.0" prefWidth="447.0">
+         <columns>
+            <TableColumn fx:id="BreastplateCost" prefWidth="107.99993896484375" text="Cost" />
+            <TableColumn fx:id="BreastplateWeight" prefWidth="79.199951171875" text="Weight" />
+            <TableColumn fx:id="BreastplateMat" prefWidth="84.0" text="Material" />
+            <TableColumn fx:id="BreastplateStreingth" prefWidth="78.39996337890625" text="Strength" />
+            <TableColumn fx:id="BreastplateArmor" prefWidth="96.79997558593749" text="Armor" />
+         </columns>
+      </TableView>
+      <TableView fx:id="BootsView" layoutX="84.0" layoutY="438.0" prefHeight="200.0" prefWidth="470.0">
+        <columns>
+          <TableColumn fx:id="BootsCost" prefWidth="103.19998168945312" text="Cost" />
+          <TableColumn fx:id="BootsWeight" prefWidth="77.60005187988281" text="Weight" />
+            <TableColumn fx:id="BootsMat" prefWidth="76.7999267578125" text="Material" />
+            <TableColumn fx:id="BootsStreingth" prefWidth="76.0" text="Strength" />
+            <TableColumn fx:id="BootsIsGaiters" prefWidth="135.19998779296873" text="IsGaiters" />
+        </columns>
+      </TableView>
+      <TableView fx:id="ShieldView" layoutX="740.0" layoutY="438.0" prefHeight="200.0" prefWidth="447.0">
+        <columns>
+          <TableColumn fx:id="ShieldCost" prefWidth="75.0" text="Cost" />
+          <TableColumn fx:id="ShieldWeight" prefWidth="75.0" text="Weight" />
+            <TableColumn fx:id="ShieldMat" prefWidth="75.0" text="Material" />
+            <TableColumn fx:id="ShieldStreingth" prefWidth="75.0" text="Strength" />
+            <TableColumn fx:id="ShieldIsCrooked" prefWidth="75.0" text="IsCrooked" />
+            <TableColumn fx:id="ShieldProtection" prefWidth="75.0" text="Protection" />
+        </columns>
+      </TableView>
+      <Button layoutX="605.0" layoutY="357.0" mnemonicParsing="false" onAction="#GetData" text="GetData">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="260.0" layoutY="320.0" mnemonicParsing="false" onAction="#SelectHelmet" text="Select Helmet">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="245.0" layoutY="61.0" text="Table of Helmets">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="382.0" text="Table of Boots">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="266.0" layoutY="650.0" mnemonicParsing="false" onAction="#SelectBoots" text="Select Boots">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="872.0" layoutY="61.0" text="Table of Breastplates">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="889.0" layoutY="382.0" text="Table of Shields">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="891.0" layoutY="320.0" mnemonicParsing="false" onAction="#SelectBreastplate" text="Select BreastPlate">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="908.0" layoutY="650.0" mnemonicParsing="false" onAction="#SelectShield" text="Select Shield">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="615.0" layoutY="646.0" mnemonicParsing="false" onAction="#ChooseEquipReturn" text="Return">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="1249.0" layoutY="331.0" prefHeight="131.0" prefWidth="275.0">
+        <columns>
+          <TableColumn fx:id="NameColumn" prefWidth="100.800048828125" text="Name" />
+          <TableColumn fx:id="AgeColumn" prefWidth="68.79998779296875" text="Age" />
+            <TableColumn fx:id="MoneyColumn" prefWidth="105.5999755859375" text="Available Money" />
+        </columns>
+      </TableView>
+      <Label layoutX="1335.0" layoutY="292.0" text="Select Knight">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="1273.0" layoutY="482.0" mnemonicParsing="false" onAction="#GetKnights" text="GetKnights">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="1409.0" layoutY="482.0" mnemonicParsing="false" onAction="#SelectKnight" text="Selectknight">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

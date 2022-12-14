@@ -1,0 +1,4 @@
+Thu Nov 10 12:49:58 EET 2022
+Critical error!
+Help works!
+true

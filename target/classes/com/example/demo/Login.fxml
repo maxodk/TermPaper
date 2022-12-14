@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" styleClass="anchor2" stylesheets="@../../../MenuStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <TextField fx:id="textField" layoutX="226.0" layoutY="136.0" promptText="Email:" />
+      <Label layoutX="199.0" layoutY="87.0" text="𝓔𝓷𝓽𝓮𝓻 𝔂𝓸𝓾𝓻 𝓮𝓶𝓪𝓲𝓵:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="175.0" text="𝓔𝓷𝓽𝓮𝓻 𝔂𝓸𝓾𝓻 𝓵𝓸𝓰𝓲𝓷:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField2" layoutX="226.0" layoutY="219.0" promptText="Login:" />
+      <Label layoutX="175.0" layoutY="270.0" text="𝓔𝓷𝓽𝓮𝓻 𝔂𝓸𝓾𝓻 𝓹𝓪𝓼𝓼𝔀𝓸𝓻𝓭:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textField3" layoutX="226.0" layoutY="324.0" promptText="Password:" />
+      <Button layoutX="222.0" layoutY="507.0" mnemonicParsing="false" onAction="#switchToMenu2" text="𝓐𝓹𝓹𝓵𝔂">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="157.0" layoutY="374.0" text="𝓒𝓸𝓷𝓯𝓲𝓻𝓶 𝔂𝓸𝓾𝓻 𝓹𝓪𝓼𝓼𝔀𝓸𝓻𝓭:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textField4" layoutX="225.0" layoutY="434.0" promptText="Password:" />
+      <Label fx:id="label" layoutX="174.0" layoutY="481.0" prefHeight="26.0" prefWidth="250.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
