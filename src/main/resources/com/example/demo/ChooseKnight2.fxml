@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Delete">
+   <children>
+      <TableView fx:id="tableView" layoutX="272.0" layoutY="129.0" prefHeight="131.0" prefWidth="275.0">
+         <columns>
+            <TableColumn fx:id="NameColumn" prefWidth="100.800048828125" text="Name" />
+            <TableColumn fx:id="AgeColumn" prefWidth="68.79998779296875" text="Age" />
+            <TableColumn fx:id="MoneyColumn" prefWidth="105.5999755859375" text="Available Money" />
+         </columns>
+      </TableView>
+      <Label layoutX="310.0" layoutY="101.0" text="Select knight for deleting">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="280.0" layoutY="273.0" mnemonicParsing="false" onAction="#GetKnights" text="Get Knights">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="436.0" layoutY="272.0" mnemonicParsing="false" onAction="#SelectKnight" prefHeight="38.0" prefWidth="110.0" text="Select Knight">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="471.0" mnemonicParsing="false" onAction="#Return" text="Return">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="177.0" layoutY="473.0" mnemonicParsing="false" onAction="#DeleteEquip" text="DeleteEquip">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="534.0" layoutY="474.0" mnemonicParsing="false" onAction="#DeleteWeapon" text="DeleteWeapon">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="600.0" styleClass="anchor" stylesheets="@../../../MenuStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Button layoutX="188.0" layoutY="238.0" mnemonicParsing="false" onAction="#switchToSceneRegister" prefHeight="48.0" prefWidth="222.0" text="𝓡𝓮𝓰𝓲𝓼𝓽𝓮𝓻">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="188.0" layoutY="337.0" mnemonicParsing="false" onAction="#switchToSceneLogin" prefHeight="48.0" prefWidth="222.0" text="𝓛𝓸𝓰 𝓘𝓷">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="419.0" mnemonicParsing="false" onAction="#Help" prefHeight="48.0" prefWidth="222.0" text="𝓗𝓮𝓵𝓹">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="514.0" mnemonicParsing="false" onAction="#exit" prefHeight="48.0" prefWidth="222.0" text="𝓔𝔁𝓲𝓽">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="237.0" layoutY="101.0" prefHeight="28.0" prefWidth="126.0" text="𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸&#10;" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="129.0" prefHeight="62.0" prefWidth="315.0" text="𝕽𝖊𝖙𝖆𝖎𝖑 𝖘𝖍𝖔𝖕 𝖔𝖋 𝖋𝖆𝖙𝖊">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+.anchor{
+    -fx-background-image: url('phon8.jpg');
+    -fx-background-size: cover;
+}
+
+.anchor2{
+    -fx-background-image: url('phon9.jpg');
+    -fx-background-size: cover;
+}
+
+.anchor3
+{
+    -fx-background-image: url('phon-10.jpg');
+    -fx-background-size: cover;
+}
+.button{
+    -fx-background-color: rgb(251,223,172);
+    -fx-background-radius: 30;
+    -fx-color-label-visible: true;
+}
+.button:hover
+{
+    -fx-effect: dropshadow( three-pass-box , black , 1, 0.0 , 0 , 1);
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}

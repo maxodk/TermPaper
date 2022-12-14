@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Delete">
+   <children>
+      <Button layoutX="614.0" layoutY="688.0" mnemonicParsing="false" onAction="#ReturnToChoose" text="Return back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="554.0" layoutY="50.0" prefHeight="30.0" prefWidth="231.0" text="Welcome To Delete Equip">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="HelmetView" layoutX="98.0" layoutY="126.0" prefHeight="200.0" prefWidth="483.0">
+         <columns>
+            <TableColumn fx:id="HelmetCost" prefWidth="92.79998779296875" text="Cost" />
+            <TableColumn fx:id="HelmetWeight" prefWidth="79.19998168945312" text="Weight" />
+            <TableColumn fx:id="HelmetMat" prefWidth="78.39997863769531" text="Material" />
+            <TableColumn fx:id="HelmetStreingth" prefWidth="89.60003662109375" text="Strength" />
+            <TableColumn fx:id="HelmetType" prefWidth="142.40001220703124" text="TypeOfHelmet" />
+         </columns>
+      </TableView>
+      <TableView fx:id="BreastplateView" layoutX="760.0" layoutY="126.0" prefHeight="200.0" prefWidth="447.0">
+         <columns>
+            <TableColumn fx:id="BreastplateCost" prefWidth="107.99993896484375" text="Cost" />
+            <TableColumn fx:id="BreastplateWeight" prefWidth="79.199951171875" text="Weight" />
+            <TableColumn fx:id="BreastplateMat" prefWidth="84.0" text="Material" />
+            <TableColumn fx:id="BreastplateStreingth" prefWidth="78.39996337890625" text="Strength" />
+            <TableColumn fx:id="BreastplateArmor" prefWidth="96.79997558593749" text="Armor" />
+         </columns>
+      </TableView>
+      <TableView fx:id="BootsView" layoutX="104.0" layoutY="458.0" prefHeight="200.0" prefWidth="470.0">
+         <columns>
+            <TableColumn fx:id="BootsCost" prefWidth="103.19998168945312" text="Cost" />
+            <TableColumn fx:id="BootsWeight" prefWidth="77.60005187988281" text="Weight" />
+            <TableColumn fx:id="BootsMat" prefWidth="76.7999267578125" text="Material" />
+            <TableColumn fx:id="BootsStreingth" prefWidth="76.0" text="Strength" />
+            <TableColumn fx:id="BootsIsGaiters" prefWidth="135.19998779296873" text="IsGaiters" />
+         </columns>
+      </TableView>
+      <TableView fx:id="ShieldView" layoutX="760.0" layoutY="458.0" prefHeight="200.0" prefWidth="447.0">
+         <columns>
+            <TableColumn fx:id="ShieldCost" prefWidth="75.0" text="Cost" />
+            <TableColumn fx:id="ShieldWeight" prefWidth="75.0" text="Weight" />
+            <TableColumn fx:id="ShieldMat" prefWidth="75.0" text="Material" />
+            <TableColumn fx:id="ShieldStreingth" prefWidth="75.0" text="Strength" />
+            <TableColumn fx:id="ShieldIsCrooked" prefWidth="75.0" text="IsCrooked" />
+            <TableColumn fx:id="ShieldProtection" prefWidth="75.0" text="Protection" />
+         </columns>
+      </TableView>
+      <Button layoutX="625.0" layoutY="377.0" mnemonicParsing="false" onAction="#GetData1" text="GetData">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="280.0" layoutY="340.0" mnemonicParsing="false" onAction="#DeleteHelmet" text="Select Helmet">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="265.0" layoutY="81.0" text="Table of Helmets">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="402.0" text="Table of Boots">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="286.0" layoutY="670.0" mnemonicParsing="false" onAction="#DeleteBoots" text="Select Boots">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="892.0" layoutY="81.0" text="Table of Breastplates">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="909.0" layoutY="402.0" text="Table of Shields">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="911.0" layoutY="340.0" mnemonicParsing="false" onAction="#DeleteBreastplate" text="Select BreastPlate">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="928.0" layoutY="670.0" mnemonicParsing="false" onAction="#DeleteShield" text="Select Shield">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
